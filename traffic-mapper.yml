@@ -1,5 +1,5 @@
 server:
-    port: ${port:9000}
+    port: 9003
     
 kafka:
     bootstrap-servers: localhost:9092
@@ -16,3 +16,4 @@ kafka:
     session-timeout: 30000
     key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
     value-deserializer: org.apache.kafka.common.serialization.ByteArrayDeserializer
+    
