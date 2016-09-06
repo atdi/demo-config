@@ -1,3 +1,7 @@
 server:
     port: 9002
     
+eureka:
+  server:
+    renewalPercentThreshold: 0.49
+    
