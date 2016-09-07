@@ -3,7 +3,7 @@ server:
 
 kafka:
     bootstrap-servers: localhost:9092
-    zookeeper.connect: localhost:2181 
+    zookeeper-connect: localhost:2181 
     acks: all
     retries: 0
     batch-size: 16384
