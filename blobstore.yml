@@ -9,7 +9,7 @@ kafka:
     linger-ms: 1
     buffer-memory: 33554432
     key-serializer: org.apache.kafka.common.serialization.StringSerializer
-    value-serializer: org.apache.kafka.common.serialization.StringDeserializer
+    value-serializer: org.apache.kafka.common.serialization.StringSerializer
     group-id: test
     enable-auto-commit: true
     auto-commit-interval: 1000
